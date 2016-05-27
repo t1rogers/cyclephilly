@@ -9,9 +9,9 @@ require_once( 'Util.php' );
 
 abstract class DatabaseConnection extends mysqli
 {
-	const USER     = 'your_username';
-	const PASSWORD = 'your_password';
-	const DATABASE = 'your_db_name';
+	const USER     = 'adminEdnBa1q';
+	const PASSWORD = 'mEwu5cYsZpD_';
+	const DATABASE = 'webikesd';
 
 	public function __construct( $host, $user, $password, $database )
 	{
