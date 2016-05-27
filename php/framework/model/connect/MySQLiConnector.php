@@ -63,14 +63,14 @@ class MySQLiConnector extends DBConnector {
 				$parameters['password'],
 				$selectedDB,
 				$parameters['port']
-			)
+			);
 		} else {
 			$this->dbConn = new MySQLi(
 				$parameters['server'],
 				$parameters['username'],
 				$parameters['password'],
 				$selectedDB
-			)
+			);
 		}
 
 		if ($this->dbConn->connect_error) {
