@@ -16,10 +16,10 @@ define('SS_DATABASE_PASSWORD', getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));*/
 define('SS_DEFAULT_ADMIN_USERNAME', '');
 define('SS_DEFAULT_ADMIN_PASSWORD', '');
 
-$host = "cycle.c0pz9rduf4ic.us-east-1.rds.amazonaws.com";//173.194.251.23" ;
+$host = "127.13.125.2";//173.194.251.23" ;
 $port = "3306";
-$user = "cycleUser" ;
-$pass = "";
+$user = "adminEdnBa1q" ;
+$pass = "mEwu5cYsZpD_";
 
 define('SS_DATABASE_SERVER', $host);
 define('SS_DATABASE_PORT', $port);
